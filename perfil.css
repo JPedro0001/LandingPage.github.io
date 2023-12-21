@@ -127,13 +127,13 @@ button:hover {
 
 /* Responsividade */
 
-@media screen and (max-width: 771px) {
+@media only screen and (max-width: 771px) {
     iframe {
         width: 100%;
     }
 }   
 
-@media screen and (max-width: 400px) {
+@media only screen and (max-width: 400px) {
     .imgproj {
         width: 100%;
     }
