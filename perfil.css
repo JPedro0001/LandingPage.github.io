@@ -113,7 +113,7 @@ button:hover {
 
 /* Img dos projetos */
 
-#imgproj {
+.imgproj {
     width: 300px;
     height: 150px;
     border-radius: 0px;
@@ -129,6 +129,12 @@ button:hover {
 
 @media screen and (max-width: 771px) {
     iframe {
+        width: 100%;
+    }
+}   
+
+@media screen and (max-width: 400px) {
+    .imgproj {
         width: 100%;
     }
 }   
